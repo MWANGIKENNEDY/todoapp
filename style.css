@@ -8,21 +8,50 @@ html{
     height: 100%;
 }
 
+h1,h2,h3,h4,h5,h6{
+    color: white;
+    color: red;
+}
+
 body{
     min-height: 100%;
-    background-color: aliceblue;
+    background-color: #b1aba9;
 }
 
 .wrapper{
+  
     min-height: 100vh;
-display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .todowrapper{
-    display: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 50px;
-    background-color: antiquewhite;
+    background-color:  #d3cdcb ;
+    box-shadow: 10px 10px grey;
+    border-radius: 20px;
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+#task{
+    background-color: aliceblue;
+    padding: 20px;
+    width: 320px;
+}
+
+#add{
+    background-color: green;
+    width: 100px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
 }
 
