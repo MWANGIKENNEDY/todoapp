@@ -56,3 +56,70 @@ body{
     margin-left: 30px;
 }
 
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-links ul{
+display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li{
+    text-align: center;
+}
+
+.navbar-links li a{
+    display: block;
+    padding: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    display: block;
+
+
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-links li a:hover{
+    background-color: #555;
+    color: white;
+    border-bottom: 3px solid red;
+}
+.logoo{
+    padding: 20px;
+
+}
+
+.myicon{
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+
+    .navbar{
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .myicon{
+        display: flex;
+    }
+
+    .navbar-links ul{
+        display: none;
+     
+        }
+
+}
+
