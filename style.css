@@ -71,25 +71,17 @@ display: flex;
     padding: 0;
 }
 
-.navbar-links li{
-    text-align: center;
-}
-
 .navbar-links li a{
     display: block;
     padding: 20px;
     font-family: "Lucida Console", "Courier New", monospace;
     text-decoration: none;
     display: block;
-
-
     border-bottom: 3px solid transparent;
 }
 
 .navbar-links li a:hover{
-    background-color: #555;
-    color: white;
-    border-bottom: 3px solid red;
+    cursor: pointer;
 }
 .logoo{
     padding: 20px;
@@ -116,9 +108,8 @@ display: flex;
         display: flex;
     }
 
-    .navbar-links ul{
+    .navbar-links{
         display: none;
-     
         }
 
 }

@@ -1,5 +1,6 @@
-function myFunction(){
-    console.log("hell");
-}
+var openMenu=document.getElementsByClassName("myicon")
+                    .addEventListener("click",displayMenu());
 
-myFunction();
+displayMenu=()=>{
+    alert("hello world");
+};
